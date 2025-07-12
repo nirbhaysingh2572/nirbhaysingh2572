@@ -68,26 +68,30 @@ hr{
     border: 2px solid #9fc131f3;
 }
 
-@media (max-width : 500px){
+@media (max-width : 600px){
     #main{
         justify-content: start;
     }
 
     #main>h1{
-        font-size: 2rem;
-        margin: 1rem;
+        font-size: 4vh;
+        margin: 1vh;
     }
 
     #table{
         position: absolute;
         width: 100%;
-        bottom: 0;
+        bottom: 3vh;
     }
 
     #scorebord{
         top: 0;
         left: 50%;
-        transform: translate(-50%, 60%);
+        transform: translate(-50%, 50%);
+    }
+
+    h2{
+        margin: 1.5vh;
     }
 
 }
